@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    outline: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+.header-left {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
