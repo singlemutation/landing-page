@@ -10,7 +10,6 @@ body {
 }
 
 .header {
-    outline: 1px solid red;
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -152,4 +151,18 @@ button {
 
 .call-button {
     border: #F9FAF8 1px solid;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 52px;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
