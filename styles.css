@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
-    padding: 8px 24px;
+    padding: 8px 60px;
 }
 
 .header-left {
@@ -35,4 +35,43 @@ body {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    gap: 48px;
+}
+
+.placeholder {
+    background-color: gray;
+    color: white;
+    height: 130px;
+    width: 320px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 4px 32px;
 }
